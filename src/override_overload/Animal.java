@@ -1,0 +1,15 @@
+package override_overload;
+public class Animal {
+
+	public Animal() {
+		// TODO Auto-generated constructor stub
+	}
+	
+    public static void testClassMethod() {
+        System.out.println("The static method in Animal");
+    }
+    
+    public void testInstanceMethod() {
+        System.out.println("The instance method in Animal");
+    }
+}
