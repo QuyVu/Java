@@ -12,7 +12,7 @@ public class Race {
 		System.err.println("Race Started!");
 		for (int i = 0; i < horse.length; i++)
 			horse[i].start();
-		
+		System.out.printf("Horse\t      0      1      2      3      4      5      6      7      8      9\n");
 		System.out.println("");
 		System.out.print("Distance ");
 		
@@ -31,6 +31,6 @@ public class Race {
 		for (int i = 0; i < horse.length; i++) {
 			System.out.printf("%6d ", horse[i].getStepNum());
 		}
-		System.out.println("\nThe Winner is horse " + Horse.winner() + " with " + horse[Horse.winner()].getStepNum() + " Steps");
+		System.out.println("\nThe Winner is horse number " + Horse.winner() + " with " + horse[Horse.winner()].getStepNum() + " Steps");
 	}
 }

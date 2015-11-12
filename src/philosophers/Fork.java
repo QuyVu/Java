@@ -7,6 +7,10 @@ public class Fork {
 		return taken;
 	}
 	
+	public int getID() {
+		return id;
+	}
+	
 	public Fork(int id){
 		this.id= id;
 	}
